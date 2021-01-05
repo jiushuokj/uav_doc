@@ -1,7 +1,7 @@
 
 # 效果展示
 整体界面
-![avatar](demo1.png)
+![avatar](https://github.com/jiushuokj/uav_doc/blob/main/demo1.png)
 任务规划
 ![avatar](demo2.png)
 航线执行监控
