@@ -48,7 +48,7 @@
 
 ## 设备接入层
     设备接入层支持两种接入方式：
-  * 遥控器转发接入（https://github.com/jiushuokj/uav_mobile_app）
+  * 遥控器转发接入[https://github.com/jiushuokj/uav_mobile_app]
     * 以大疆M210和M300为例，基于MOBILE SDK，开发转发APP，将飞机状态通过MQTT上报信息处理层；将采集的照片上传FTP服务器；将视频流通过UDP或者RTMP方式上报信息处理层。
     * 接收信息处理层或综合展现层下达的控制命令、航线命令，并控制飞机完成相应的动作
   * 机载计算机接入
