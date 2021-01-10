@@ -9,10 +9,10 @@
 * 综合展现层：提供二三维态势监控、视频监控、任务规划、地图标绘、飞行状态监控等功能
 
 ## 综合展现层
-    综合展现层基于cesium开发，支持二三维地图。详细说明参见[https://github.com/jiushuokj/uav_gcs]
+综合展现层基于cesium开发，支持二三维地图。详细说明参见[https://github.com/jiushuokj/uav_gcs]
 
 ## 信息处理层
-    以docker容器的形式提供了以下几个服务，参见[https://github.com/jiushuokj/uav_gcs] ：
+以docker容器的形式提供了以下几个服务，参见[https://github.com/jiushuokj/uav_gcs] ：
   *  emqx: 作为系统的消息总线，提供订阅分发能力。
   *  ftp: 当无人机降落后，设备接入层将采集的照片自动上传到ftp服务器
   *  mapper: 
@@ -25,7 +25,7 @@
     * 基于视频和无人机位置提供实时制图功能，实时制图生成的瓦片数据提供给Mapper
 
 ## 设备接入层
-    设备接入层支持两种接入方式：
+设备接入层支持两种接入方式：
   * 遥控器转发接入[https://github.com/jiushuokj/uav_mobile_app]
     * 以大疆M210和M300为例，基于MOBILE SDK，开发转发APP，将飞机状态通过MQTT上报信息处理层；将采集的照片上传FTP服务器；将视频流通过UDP或者RTMP方式上报信息处理层。
     * 接收信息处理层或综合展现层下达的控制命令、航线命令，并控制飞机完成相应的动作
@@ -34,7 +34,7 @@
     * 接收信息处理层或综合展现层下达的控制命令、航线命令，并控制飞机完成相应的动作
 
 ## 设备层
-   目前适配过大疆M210 M300。
+目前适配过大疆M210 M300。
    
 # 协议
     https://github.com/jiushuokj/uav_protocol
