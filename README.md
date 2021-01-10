@@ -31,10 +31,10 @@
 * 综合展现层：提供二三维态势监控、视频监控、任务规划、地图标绘、飞行状态监控等功能
 
 ## 综合展现层
-    综合展现层基于cesium开发，支持二三维地图。详细说明参见XXXXX
+    综合展现层基于cesium开发，支持二三维地图。详细说明参见[https://github.com/jiushuokj/uav_gcs]
 
 ## 信息处理层
-    以docker容器的形式提供了以下几个服务：
+    以docker容器的形式提供了以下几个服务，参见[https://github.com/jiushuokj/uav_gcs]：
   *  emqx: 作为系统的消息总线，提供订阅分发能力。
   *  ftp: 当无人机降落后，设备接入层将采集的照片自动上传到ftp服务器
   *  mapper: 
