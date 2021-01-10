@@ -16,8 +16,8 @@
   *  emqx: 作为系统的消息总线，提供订阅分发能力。
   *  ftp: 当无人机降落后，设备接入层将采集的照片自动上传到ftp服务器
   *  mapper: 
-    *  提供3d tile格式的影像、高程服务，为综合展现层cesium提供GIS数据
-    *  基于OPENDRONEMAP，提供对ftp中照片的三维重建能力
+      *  提供3d tile格式的影像、高程服务，为综合展现层cesium提供GIS数据
+      *  基于OPENDRONEMAP，提供对ftp中照片的三维重建能力
   * rtmp: 提供rtmp视频分发服务，接收设备接入层推送的rtmp视频流并推送到综合展现层
   * videobridge: 
     * 通过udp方式接收设备接入层发送的H264原始码流，并转码为webrtc码流
